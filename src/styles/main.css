@@ -17,6 +17,10 @@
     color: #ffffff;
 }
 
+.menu-titulo {
+    color: #ff0000;
+}
+
 .panel {
     display: flex;
     margin-top: 1rem;
@@ -36,4 +40,5 @@
 .enemy {
     background-image: url(../images/ralph.png);
     background-size: cover;
+    background-position: center;
 }

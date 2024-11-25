@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url(../images/wall.png);
 }
 
 .menu {
@@ -15,10 +16,22 @@
 
     background-color: #000000;
     color: #ffffff;
+
+    border-bottom: 5px solid #ffd700;
 }
 
 .menu-titulo {
     color: #ff0000;
+    margin-bottom: 5px;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        margin-right: 5px;
+    }
 }
 
 .panel {
@@ -26,7 +39,6 @@
     margin-top: 1rem;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ff0000;
 }
 
 
@@ -38,7 +50,7 @@
 }
 
 .enemy {
-    background-image: url(../images/ralph.png);
+    background-image: url(../images/Ralf.webp);
     background-size: cover;
     background-position: center;
 }

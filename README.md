@@ -1,101 +1,25 @@
-# **Game project template**
+# **Detona ralph**
 
-> Breve descrição ou slogan do projeto.
+> Jogo estilo Caça à toupeira do Detona ralph.
 
 ## **Índice**
-- [**Game project template**](#game-project-template)
+- [**Detona ralph**](#detona-ralph)
   - [**Índice**](#índice)
   - [**Sobre o Projeto**](#sobre-o-projeto)
-  - [**Funcionalidades**](#funcionalidades)
   - [**Tecnologias Utilizadas**](#tecnologias-utilizadas)
-  - [**Instalação e Configuração**](#instalação-e-configuração)
-  - [**Como Usar**](#como-usar)
-  - [**Testes**](#testes)
   - [**Contribuição**](#contribuição)
   - [**Licença**](#licença)
   - [**Contato**](#contato)
-    - [**Dicas adicionais:**](#dicas-adicionais)
+    - [**Adicionais:**](#adicionais)
 
 ## **Sobre o Projeto**
-Descreva o que é o projeto, seus objetivos e o problema que ele resolve. Pode ser um parágrafo curto ou mais detalhado, dependendo da complexidade do projeto.
-
-Exemplo:
-> Este projeto é uma aplicação web para gerenciamento de tarefas, permitindo aos usuários criar, editar e excluir tarefas. O objetivo é facilitar o controle de atividades diárias e melhorar a produtividade.
-
-## **Funcionalidades**
-Liste as principais funcionalidades do projeto:
-
-- [x] Adicionar e remover tarefas
-- [x] Editar tarefas existentes
-- [x] Marcar tarefas como concluídas
-- [x] Filtro de tarefas por status (concluídas, pendentes)
-- [ ] Autenticação de usuário (em desenvolvimento)
+Este projeto foi criado com o objetivo de praticar o uso e malipulação de
+elementos comuns à um site,pela criação de um jogo.
 
 ## **Tecnologias Utilizadas**
-Mencione as principais tecnologias e frameworks utilizados no projeto.
 
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express
-- **Banco de Dados**: MongoDB
-- **DevOps**: Docker, GitHub Actions
-- **Outros**: TailwindCSS, ESLint
+- **Frontend**: HTML, CSS, JavaScript
 
-## **Instalação e Configuração**
-Instruções para configurar o ambiente e rodar o projeto localmente.
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
-   ```
-
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-
-3. **Configuração do arquivo .env:**
-   Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
-   ```bash
-   PORT=3000
-   DATABASE_URL=mongodb://localhost:27017/seu-banco
-   JWT_SECRET=sua_chave_secreta
-   ```
-
-4. **Inicie o servidor:**
-   ```bash
-   npm start
-   ```
-
-5. **Acesse a aplicação:**
-   Abra seu navegador em [http://localhost:3000](http://localhost:3000).
-
-## **Como Usar**
-Explique como a aplicação deve ser utilizada. Você pode incluir capturas de tela ou GIFs para ajudar na visualização.
-
-Exemplo:
-1. Cadastre-se na plataforma.
-2. Faça login usando suas credenciais.
-3. Adicione uma nova tarefa clicando em **Adicionar Tarefa**.
-4. Utilize os filtros para visualizar tarefas concluídas ou pendentes.
-
-## **Testes**
-Descreva como executar testes automatizados (se houver):
-
-1. **Executar testes unitários:**
-   ```bash
-   npm test
-   ```
-
-2. **Executar testes de integração:**
-   ```bash
-   npm run test:integration
-   ```
-
-3. **Verificar cobertura de testes:**
-   ```bash
-   npm run test:coverage
-   ```
 
 ## **Contribuição**
 Se você deseja contribuir com o projeto, siga estas instruções:
@@ -116,29 +40,25 @@ Se você deseja contribuir com o projeto, siga estas instruções:
 5. Abra um Pull Request.
 
 ## **Licença**
-Defina a licença do projeto (MIT, Apache 2.0, GPL, etc.). Se você não tiver certeza, o [GitHub oferece orientações sobre licenças](https://choosealicense.com/).
-
-Exemplo:
-> Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Creative Commons Attribution 4.0 International Public License
 
 ## **Contato**
 Informe como as pessoas podem entrar em contato para tirar dúvidas ou contribuir.
 
-- **Autor**: Seu Nome
-- **Email**: seuemail@dominio.com
-- **LinkedIn**: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub**: [@seu-usuario](https://github.com/seu-usuario)
+- **Autor**: YuriCodingQuest
+- **LinkedIn**: [yuricodingquest](https://www.linkedin.com/in/yuricodingquest/)
+- **GitHub**: [@YuriQuest](https://github.com/YuriQuest)
 
 ---
 
-### **Dicas adicionais:**
-- **Badges**: Adicionar badges para mostrar o status do build, cobertura de código, versão do projeto etc.
-  Exemplo:
-  ![Build Status](https://img.shields.io/github/actions/workflow/status/seu-usuario/nome-do-repositorio/build.yml)
-  ![License](https://img.shields.io/github/license/seu-usuario/nome-do-repositorio)
-
-- **Imagens e GIFs**: Adicione imagens ou GIFs demonstrando o funcionamento da aplicação.
-
-- **To-do List**: Inclua uma lista de tarefas pendentes para que outros contribuidores possam saber o que falta implementar.
-
-Com este padrão, você terá um README organizado e informativo que facilita o entendimento do projeto por outros desenvolvedores e usuários.
+### **Adicionais:**
+- **To-do List**: 
+  -  [ ] adicionar funcionalidade a vida.
+     -  [ ] elemento de dano.
+     -  [ ] elemento de cura.
+  -  [ ] adicionar novas mecanicas.
+     -  [ ] lista de pontuação.
+     -  [ ] barra de saude do predio.
+        -  [ ] tranformar aprencia do jogo em um predio.
+        -  [ ] criar elemento de barra.
+     -  [ ] nivel de dificuldade aumenta apos quantidade de pontos.
